@@ -1,0 +1,23 @@
+image: "alpine:3.14"
+
+stages:
+    - "lint"
+    - "build"
+
+before_script:
+    - "apk add make jq"
+
+lint:
+  stage: "lint"
+  script:
+    - "make lint"
+
+build:
+    stage: "build"
+    script:
+        - "make package"
+    artifacts:
+        paths:
+            - "build/datapacks"
+    only:
+        - "master"
