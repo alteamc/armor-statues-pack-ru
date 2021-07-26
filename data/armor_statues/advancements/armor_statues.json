@@ -8,19 +8,19 @@
     "description": [
       "",
       {
-        "text": "Adds a unique book that allows you to alter the properties of armor stands in survival.  ",
+        "text": "Добавляет уникальную книгу, которая позволяет изменять свойства стоек для брони в режиме выживания.  ",
         "color": "gold"
       },
       {
-        "text": "Datapack by: ",
+        "text": "Датапак от: ",
         "color": "green"
       },
       {
-        "text": "Phssthpok, MSpaceDev, and MukiTanuki\n",
+        "text": "Phssthpok, MSpaceDev, и MukiTanuki с переводом на русский язык от Bigovski для Krampus Project\n",
         "color": "aqua"
       },
       {
-        "text": "Enter",
+        "text": "Введите",
         "color": "green"
       },
       {
@@ -32,11 +32,11 @@
         "color": "yellow"
       },
       {
-        "text": " for details.\n",
+        "text": " для получения подробностей.\n",
         "color": "gold"
       },
       {
-        "text": "Enter",
+        "text": "Введите",
         "color": "green"
       },
       {
@@ -48,7 +48,7 @@
         "color": "yellow"
       },
       {
-        "text": " and use auto-complete to set config options.",
+        "text": " и используйте автодополнение для задания опций конфигурации.",
         "color": "gold"
       }
     ],
