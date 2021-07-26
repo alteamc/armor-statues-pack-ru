@@ -16,7 +16,7 @@
 				datapack:\"ArmorStatuesV2\",
 				CustomModelData:10, 
 				pages:[
-				  '[
+				  [
 					{\"text\":\"      \",\"color\":\"white\"},
 					{\"text\":\"Statues V2.9\",\"color\":\"dark_blue\"},
 					{\"text\":\"    \",\"color\":\"white\"},
@@ -62,8 +62,8 @@
 					{\"text\":\"\\\\n\",\"color\":\"white\"},
 					{\"text\":\"\\\\n      \",\"color\":\"white\"},
 					{\"text\":\"Check Target\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 999\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 					\"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"   \",\"color\":\"white\"},
@@ -98,8 +98,8 @@
 					{\"text\":\"Yes\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 11\"}},
 					{\"text\":\" / \",\"color\":\"black\"},
 					{\"text\":\"No\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 12\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"   .\",\"color\":\"white\"},
@@ -206,8 +206,8 @@
 					{\"text\":\" \",\"color\":\"white\"},
 					{\"text\":\"+8\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 1129\"}},
 					\"\"
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"   \",\"color\":\"white\"},
@@ -270,8 +270,8 @@
 					{\"text\":\"Head\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 1165\"}},
 					{\"text\":\"   \",\"color\":\"white\"},
 					{\"text\":\"Feet\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 1171\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"   \",\"color\":\"white\"},
@@ -313,8 +313,8 @@
 					{\"text\":\"\\\\nBlock\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 141\"}},
 					{\"text\":\"        ..\",\"color\":\"white\"},
 					{\"text\":\"Item\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 142\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\" .\",\"color\":\"white\"},
@@ -405,8 +405,8 @@
 					{\"text\":\"-\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 94\"}},
 					{\"text\":\" .\",\"color\":\"white\"},
 					{\"text\":\"+\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 95\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"    \",\"color\":\"white\"},
@@ -435,8 +435,8 @@
 					{\"text\":\"Mainhand \",\"color\":\"black\"},
 					{\"text\":\"<->\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 162\"}},
 					{\"text\":\" Head\",\"color\":\"black\"}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\".\",\"color\":\"white\"},
@@ -473,8 +473,8 @@
 					{\"text\":\"Seal\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function armor_statues:sealing/seal\"}},
 					{\"text\":\" / \",\"color\":\"black\"},
 					{\"text\":\"Unseal\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function armor_statues:sealing/unseal\"}}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"    \",\"color\":\"white\"},
@@ -491,8 +491,8 @@
 					{\"text\":\"No\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger if_invisible set 3\"}},
 					
 					{\"text\":\"\",\"color\":\"white\"}
-				  ]',
-				  '[
+				  ],
+				  [
 				    \"\",
 					{\"text\":\"\\\\u00ab\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":1}},
 					{\"text\":\"        \",\"color\":\"white\"},
@@ -515,7 +515,7 @@
 					{\"text\":\"improvements by\",\"color\":\"black\"},
 					{\"text\":\"\\\\n       \",\"color\":\"white\"},
 					{\"text\":\"MukiTanuki\",\"color\":\"#0072e5\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://twitter.com/MukiTanuki\"}}
-				  ]'
+				  ]
 				]
 			  }"
 			}
