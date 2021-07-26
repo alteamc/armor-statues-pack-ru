@@ -1,0 +1,27 @@
+name: Сборка датапака при релизе
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Проверка на ошибки
+        run: scripts/lint.sh
+
+      - name: Сборка
+        run: scripts/package.sh
+
+      - name: Получение версии из метки релиза
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+
+      - name: Прикрепление датапака к релизу
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/datapacks/Armor Statues ${{ steps.get_version.outputs.VERSION }}.zip

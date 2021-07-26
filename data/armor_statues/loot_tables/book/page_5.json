@@ -1,0 +1,516 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "   .",
+    "color": "white"
+  },
+  {
+    "text": "Регулир. позы",
+    "color": "dark_blue"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Шаг угла, используемый при регулировке поворота стойки, также используется и при регулировке позы.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n          .",
+    "color": "white"
+  },
+  {
+    "text": "X",
+    "color": "black"
+  },
+  {
+    "text": "     .",
+    "color": "white"
+  },
+  {
+    "text": "Y",
+    "color": "black"
+  },
+  {
+    "text": "     .",
+    "color": "white"
+  },
+  {
+    "text": "Z",
+    "color": "black"
+  },
+  {
+    "text": "\nГолова",
+    "color": "black"
+  },
+  {
+    "text": ".",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 60"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 61"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 62"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 63"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 64"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 65"
+    }
+  },
+  {
+    "text": "\n\nТело",
+    "color": "black"
+  },
+  {
+    "text": "   .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 67"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 66"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 68"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 69"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 70"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 71"
+    }
+  },
+  {
+    "text": "\n\nП. рука",
+    "color": "black"
+  },
+  {
+    "text": ".",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 72"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 73"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 74"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 75"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 77"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 76"
+    }
+  },
+  {
+    "text": "\n\nЛ. рука",
+    "color": "black"
+  },
+  {
+    "text": "..",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 78"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 79"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 81"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 80"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 82"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 83"
+    }
+  },
+  {
+    "text": "\n\nП. нога",
+    "color": "black"
+  },
+  {
+    "text": "..",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 84"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 85"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 87"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 86"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 89"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 88"
+    }
+  },
+  {
+    "text": "\n\nЛ. нога",
+    "color": "black"
+  },
+  {
+    "text": "..",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 90"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 91"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 92"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 93"
+    }
+  },
+  {
+    "text": "  .",
+    "color": "white"
+  },
+  {
+    "text": "-",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 94"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "+",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 95"
+    }
+  }
+]
