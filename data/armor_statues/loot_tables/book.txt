@@ -12,7 +12,7 @@
 			  "function": "minecraft:set_nbt",
 			  "tag": "{
 			    title:\"Statues V2.9\",
-				author:\"Stick God\",
+				author:\"Bigovski\",
 				datapack:\"ArmorStatuesV2\",
 				CustomModelData:10, 
 				pages:[
