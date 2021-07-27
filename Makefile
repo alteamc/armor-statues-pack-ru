@@ -5,7 +5,10 @@ name   = Armor Statues 2.9.2-RU-0.0.1
 outdir = build
 
 
-.PHONY: build lint lint_json package format format_json copy_og_trans
+.PHONY: build																																																																																\
+	lint lint_json																																																																														\
+	package																																																																																		\
+	format format_json																																																																												\
 
 
 build: lint package
@@ -41,7 +44,9 @@ package:
 			-path "./reference/*" -o																																																																							\
 			-path "./Makefile" -o																																																																									\
 			-path "./.gitignore" -o																																																																								\
-			-path "./.gitlab-ci.yml"																																																																							\
+			-path "./.gitlab-ci.yml" -o																																																																						\
+			-path "./data/armor_statues/loot_tables/book.txt"	-o																																																									\
+			-path "./data/armor_statues/loot_tables/book_old.json"																																																								\
 		\) 																																																																																			\
 	| zip "$(outdir)/datapacks/$(name).zip" -@
 
