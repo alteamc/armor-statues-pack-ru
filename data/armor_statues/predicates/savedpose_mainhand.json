@@ -5,7 +5,7 @@
     "equipment": {
       "mainhand": {
         "item": "minecraft:written_book",
-        "nbt": "{datapack:ArmorStatuesV2, SavedPose:{} }"
+	    "nbt": "{datapack:ArmorStatuesV2, SavedPose:{} }"
       }
     }
   }
