@@ -3,15 +3,15 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-	  "nbt": "{Item: {tag: {datapack:ArmorStatuesV2, SavedPose:{} }}}"
+      "nbt": "{Item: {tag: {datapack:ArmorStatuesV2, SavedPose:{} }}}"
     }
   },
   {
     "condition": "minecraft:location_check",
-	"predicate": {
-	  "block": {
-	    "block": "minecraft:redstone_wire"
-	  }
-	}
+    "predicate": {
+      "block": {
+        "block": "minecraft:redstone_wire"
+      }
+    }
   }
 ]
