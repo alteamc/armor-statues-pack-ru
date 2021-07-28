@@ -19,5 +19,3 @@ build:
     artifacts:
         paths:
             - "build/datapacks"
-    only:
-        - "master"
