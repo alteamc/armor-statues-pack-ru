@@ -13,7 +13,7 @@
     "color": "white"
   },
   {
-    "text": "Pose Mirror & Flip",
+    "text": "Отр. позы и разв.",
     "color": "dark_blue"
   },
   {
@@ -27,7 +27,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Mirroring copies the arm or leg pose from left to right or vice versa. Flipping reverses the armor stand's pose entirely.",
+          "text": "Отражение меняет местами левую и правую часть стойки. Разворот полностью инвертирует позу стойки.",
           "color": "yellow"
         }
       ]
@@ -38,7 +38,7 @@
     "color": "white"
   },
   {
-    "text": "Mirror Arms",
+    "text": "Отраз. руки",
     "color": "black"
   },
   {
@@ -46,7 +46,7 @@
     "color": "white"
   },
   {
-    "text": "L>R",
+    "text": "Л>П",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -58,7 +58,7 @@
     "color": "white"
   },
   {
-    "text": "R>L",
+    "text": "П>Л",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -70,7 +70,7 @@
     "color": "white"
   },
   {
-    "text": "Legs",
+    "text": "ноги",
     "color": "black"
   },
   {
@@ -78,7 +78,7 @@
     "color": "white"
   },
   {
-    "text": "L>R",
+    "text": "Л>П",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -90,7 +90,7 @@
     "color": "white"
   },
   {
-    "text": "R>L",
+    "text": "П>Л",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -98,11 +98,11 @@
     }
   },
   {
-    "text": "\n\n                  .",
+    "text": "\n\n      .",
     "color": "white"
   },
   {
-    "text": "<-Flip->",
+    "text": "<-Разворот->",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -110,15 +110,15 @@
     }
   },
   {
-    "text": "\n\n         ",
+    "text": "\n\n     ",
     "color": "white"
   },
   {
-    "text": "Utilities",
+    "text": "Инструменты",
     "color": "dark_blue"
   },
   {
-    "text": "        ",
+    "text": "  ",
     "color": "white"
   },
   {
@@ -128,18 +128,18 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Copying an armor stand stores it's settings and pose in the book and these can then be pasted into another armor stand. The book must be the selected item in your mainhand or offhand for this to work.\n\nLocking an armor stand prevents it from being changed using the book and disables interaction with the equipment slots.\n\nSealing an armor stand, which is only available in creative mode, does the same and in addition makes it invulnerable",
+          "text": "Копирование сохраняет настройки стойки и её позу и позволяет позже применить их на другую стойку. Книга должна быть в главной или второй руке.\n\nБлокирование стойки предотвращает её изменение через книгу и отключает возможность поменять предметы на ней.\n\nЗапечатывание аналогично блокировке, но работает только в режиме творчества и вдобавок предотвращает разрушение стойки.",
           "color": "yellow"
         }
       ]
     }
   },
   {
-    "text": "\n\n     .",
+    "text": "\n\n",
     "color": "white"
   },
   {
-    "text": "Copy",
+    "text": "Копиров.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -151,7 +151,7 @@
     "color": "black"
   },
   {
-    "text": "Paste",
+    "text": "вставить",
     "color": "red",
     "clickEvent": {
       "action": "run_command",
@@ -159,11 +159,11 @@
     }
   },
   {
-    "text": "\n\n     ",
+    "text": "\n\n ",
     "color": "white"
   },
   {
-    "text": "Lock",
+    "text": "Заблок.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -175,7 +175,7 @@
     "color": "black"
   },
   {
-    "text": "Unlock",
+    "text": "разблок.",
     "color": "red",
     "clickEvent": {
       "action": "run_command",
@@ -183,11 +183,11 @@
     }
   },
   {
-    "text": "\n\n     ",
+    "text": "\n\n",
     "color": "white"
   },
   {
-    "text": "Seal",
+    "text": "Запечат.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -199,7 +199,7 @@
     "color": "black"
   },
   {
-    "text": "Unseal",
+    "text": "распечат.",
     "color": "red",
     "clickEvent": {
       "action": "run_command",
