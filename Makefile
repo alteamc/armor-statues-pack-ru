@@ -9,6 +9,7 @@ outdir = build
 	lint lint_json																																																																														\
 	package																																																																																		\
 	format format_json																																																																												\
+	compile_book extract_book_nbt																																																																							\
 
 
 build: lint compile_book package
@@ -20,8 +21,7 @@ lint: lint_json
 lint_json:
 	@find																																																																																			\
 		-type f -iname "*.json"																																																																									\
-	! -path "./reference/minecraft/*"	-a																																																																			\
-	! -path "./translation/*"																																																																									\
+	! -path "./reference/*"																																																																										\
 		-print0																																																																																	\
 	| while IFS= read -d "" file; do																																																																					\
 		printf "%s" "$$(file="$${file#./data/}"; echo "$${file%.json}")"																																						 													 ;\
@@ -47,10 +47,9 @@ package:
 			-path "./.gitignore" -o																																																																								\
 			-path "./.gitlab-ci.yml" -o																																																																						\
 			-path "./data/armor_statues/loot_tables/book.txt"	-o																																																									\
-			-path "./translation/*"	-o																																																																						\
 			-path "./data/armor_statues/loot_tables/book_old.json" -o																																																							\
 			-path "./data/armor_statues/loot_tables/book_nbt.json" -o																																																							\
-			-path "./data/armor_statues/loot_tables/book/*"																																																								\
+			-path "./data/armor_statues/loot_tables/book/*"																																																												\
 		\) 																																																																																			\
 	| zip "$(outdir)/datapacks/$(name).zip" -@
 
@@ -61,7 +60,7 @@ format: format_json
 format_json:
 	@find																																																																																 			\
 		-type f -iname "*.json"																																																																						 			\
-	! -path "./reference/minecraft/*"																																																																		 			\
+	! -path "./reference/*"																																																																		 								\
 		-print0																																																																														 			\
 	| while IFS= read -d "" file; do																																																																		 			\
 		printf "%s" "$$(file="$${file#./data/}"; echo "$${file%.json}")"																																						 													 ;\
