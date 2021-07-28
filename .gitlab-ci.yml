@@ -5,7 +5,7 @@ stages:
     - "build"
 
 before_script:
-    - "apk add jq zip python"
+    - "apk add jq zip python3 py3-pip"
     - "pip install hjson"
 
 lint:
