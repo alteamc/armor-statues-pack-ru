@@ -9,15 +9,15 @@
     }
   },
   {
-    "text": "    ",
+    "text": "        ",
     "color": "white"
   },
   {
-    "text": "Item Frames",
+    "text": "Рамки",
     "color": "dark_blue"
   },
   {
-    "text": "     ",
+    "text": "         ",
     "color": "white"
   },
   {
@@ -27,7 +27,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "To make an item frame invisible it must be one block in front of the players eyes and have an item in the frame.\nAlternatively you can also enter:\n/trigger if_invisible\nTo make the item frame visible remove its item.\n\nMust be in creative to make item frame Fixed, or have it enabled from the admin menu.",
+          "text": "Чтобы сделать рамку невидимой необходимо, чтобы она находилась на расстоянии одного блока на уровне глаз игрока и содержала предмет.\nКроме этого, это можно сделать с помощью /trigger if_invisible\nЧтобы сделать рамку видимой, уберите из неё предмет.\n\nФиксирование рамки возможно только в режиме творчества или если такая возможность будет включена администратором.",
           "color": "yellow"
         }
       ]
@@ -38,7 +38,7 @@
     "color": "white"
   },
   {
-    "text": "Invisible item frame",
+    "text": "Сделать рамку невидимой",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -50,7 +50,7 @@
     "color": "white"
   },
   {
-    "text": "Fixed Item Frame:",
+    "text": "Зафиксировать рамку:",
     "color": "black"
   },
   {
@@ -58,7 +58,7 @@
     "color": "white"
   },
   {
-    "text": "Yes",
+    "text": "Да",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -70,7 +70,7 @@
     "color": "black"
   },
   {
-    "text": "No",
+    "text": "Нет",
     "color": "red",
     "clickEvent": {
       "action": "run_command",
