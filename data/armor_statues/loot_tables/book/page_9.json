@@ -13,7 +13,7 @@
     "color": "white"
   },
   {
-    "text": "Credits",
+    "text": "Авторы",
     "color": "dark_blue"
   },
   {
@@ -27,14 +27,14 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Click on names for links.",
+          "text": "Ссылки открываются по нажатию на имена.",
           "color": "yellow"
         }
       ]
     }
   },
   {
-    "text": "\n\n  Original concept by",
+    "text": "\n\n          Идея",
     "color": "black"
   },
   {
@@ -51,11 +51,11 @@
     }
   },
   {
-    "text": "\n\n        ",
+    "text": "\n\n    ",
     "color": "white"
   },
   {
-    "text": "Additional",
+    "text": "Дополнительные",
     "color": "black"
   },
   {
@@ -63,7 +63,7 @@
     "color": "white"
   },
   {
-    "text": "improvements by",
+    "text": "улучшения",
     "color": "black"
   },
   {
@@ -84,7 +84,7 @@
     "color": "white"
   },
   {
-    "text": "Development and",
+    "text": "Разработка и",
     "color": "black"
   },
   {
@@ -92,7 +92,7 @@
     "color": "white"
   },
   {
-    "text": "improvements by",
+    "text": "улучшения",
     "color": "black"
   },
   {
