@@ -5,17 +5,18 @@ stages:
     - "build"
 
 before_script:
-    - "apk add make jq zip"
+    - "apk add jq zip python"
+    - "pip install hjson"
 
 lint:
   stage: "lint"
   script:
-    - "make lint"
+    - "./scripts/lint.sh"
 
 build:
     stage: "build"
     script:
-        - "make package"
+        - "./scripts/package.sh"
     artifacts:
         paths:
             - "build/datapacks"
