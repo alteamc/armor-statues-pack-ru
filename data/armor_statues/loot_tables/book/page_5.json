@@ -9,15 +9,15 @@
     }
   },
   {
-    "text": " .",
+    "text": "   .",
     "color": "white"
   },
   {
-    "text": "Pose Adjustment",
+    "text": "Регулир. позы",
     "color": "dark_blue"
   },
   {
-    "text": " ",
+    "text": "  ",
     "color": "white"
   },
   {
@@ -27,7 +27,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "The angle step set for adjusting the stand rotation is also used for the pose adjustments.",
+          "text": "Шаг угла, используемый при регулировке поворота стойки, также используется и при регулировке позы.",
           "color": "yellow"
         }
       ]
@@ -58,11 +58,11 @@
     "color": "black"
   },
   {
-    "text": "\nHead",
+    "text": "\nГолова",
     "color": "black"
   },
   {
-    "text": "   ",
+    "text": ".",
     "color": "white"
   },
   {
@@ -134,11 +134,11 @@
     }
   },
   {
-    "text": "\n\nBody",
+    "text": "\n\nТело",
     "color": "black"
   },
   {
-    "text": "   ",
+    "text": "   .",
     "color": "white"
   },
   {
@@ -210,11 +210,11 @@
     }
   },
   {
-    "text": "\n\nR.Arm",
+    "text": "\n\nП. рука",
     "color": "black"
   },
   {
-    "text": "  .",
+    "text": ".",
     "color": "white"
   },
   {
@@ -286,11 +286,11 @@
     }
   },
   {
-    "text": "\n\nL.Arm",
+    "text": "\n\nЛ. рука",
     "color": "black"
   },
   {
-    "text": "  .",
+    "text": "..",
     "color": "white"
   },
   {
@@ -362,11 +362,11 @@
     }
   },
   {
-    "text": "\n\nR.Leg",
+    "text": "\n\nП. нога",
     "color": "black"
   },
   {
-    "text": "  .",
+    "text": "..",
     "color": "white"
   },
   {
@@ -438,11 +438,11 @@
     }
   },
   {
-    "text": "\n\nL.Leg",
+    "text": "\n\nЛ. нога",
     "color": "black"
   },
   {
-    "text": "  .",
+    "text": "..",
     "color": "white"
   },
   {

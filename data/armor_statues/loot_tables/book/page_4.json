@@ -9,15 +9,15 @@
     }
   },
   {
-    "text": "   ",
+    "text": "    ",
     "color": "white"
   },
   {
-    "text": "Pose Presets",
+    "text": "Шаблоны поз",
     "color": "dark_blue"
   },
   {
-    "text": "    ",
+    "text": "   ",
     "color": "white"
   },
   {
@@ -27,14 +27,14 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "The Death pose is for a figure lying down and requires a separate armor stand for the legs.\n\nRandomized creates a completely unique randomized custom pose.\n\nThe Block and Item presets are designed to hold blocks and items in line with the world grid.",
+          "text": "\"Смерть\" изображает лежащую на полу стойку, и требует отдельную стойку для ног.\n\n\"Случайная\" создаёт случайную позу стойки.\n\nШаблоны \"блок\" и \"предмет\" используются для удерживания блоков и предметов с равнением на сетку блоков.",
           "color": "yellow"
         }
       ]
     }
   },
   {
-    "text": "\n\nAttention",
+    "text": "\n\nВнимание",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -42,11 +42,11 @@
     }
   },
   {
-    "text": "    .",
+    "text": "      .",
     "color": "white"
   },
   {
-    "text": "Confident",
+    "text": "Уверен.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "text": "\nWalking",
+    "text": "\nХодьба",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -62,11 +62,11 @@
     }
   },
   {
-    "text": "      ..",
+    "text": "     ..",
     "color": "white"
   },
   {
-    "text": "Salute",
+    "text": "Приветст.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -74,7 +74,7 @@
     }
   },
   {
-    "text": "\nRunning",
+    "text": "\nБег",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -82,11 +82,11 @@
     }
   },
   {
-    "text": "     ..",
+    "text": "             ...",
     "color": "white"
   },
   {
-    "text": "Death",
+    "text": "Смерть",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -94,7 +94,7 @@
     }
   },
   {
-    "text": "\nPointing",
+    "text": "\nУказыв.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -106,7 +106,7 @@
     "color": "white"
   },
   {
-    "text": "Facepalm",
+    "text": "Фейспалм",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -114,7 +114,7 @@
     }
   },
   {
-    "text": "\nBlocking",
+    "text": "\nБлокир.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -122,11 +122,11 @@
     }
   },
   {
-    "text": "     .",
+    "text": "     ..",
     "color": "white"
   },
   {
-    "text": "Lazing",
+    "text": "Расслабл.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -134,7 +134,7 @@
     }
   },
   {
-    "text": "\nLungeing",
+    "text": "\nВыпад",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -142,11 +142,11 @@
     }
   },
   {
-    "text": "    .",
+    "text": "      ..",
     "color": "white"
   },
   {
-    "text": "Confused",
+    "text": "Растерян.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -154,7 +154,7 @@
     }
   },
   {
-    "text": "\nWinning",
+    "text": "\nПобеда",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -162,11 +162,11 @@
     }
   },
   {
-    "text": "      ..",
+    "text": "        ...",
     "color": "white"
   },
   {
-    "text": "Formal",
+    "text": "Вежлив.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -174,7 +174,7 @@
     }
   },
   {
-    "text": "\nSitting",
+    "text": "\nСидящ.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -182,11 +182,11 @@
     }
   },
   {
-    "text": "       ..",
+    "text": "         ...",
     "color": "white"
   },
   {
-    "text": "Sad",
+    "text": "Грустн.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -194,7 +194,7 @@
     }
   },
   {
-    "text": "\nArabesque",
+    "text": "\nЛасточка",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -202,11 +202,11 @@
     }
   },
   {
-    "text": " .",
+    "text": "        ..",
     "color": "white"
   },
   {
-    "text": "Joyous",
+    "text": "Игрив.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -214,7 +214,7 @@
     }
   },
   {
-    "text": "\nCupid",
+    "text": "\nКупидон",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -223,12 +223,12 @@
     "underlined": "true"
   },
   {
-    "text": "        ",
+    "text": "   ",
     "color": "dark_green",
     "underlined": "true"
   },
   {
-    "text": "Stargazing",
+    "text": "Звездочёт",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -241,7 +241,7 @@
     "color": "white"
   },
   {
-    "text": "Randomized",
+    "text": "Случайн.",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -249,7 +249,7 @@
     }
   },
   {
-    "text": "\nBlock",
+    "text": "\nБлок",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -261,7 +261,7 @@
     "color": "white"
   },
   {
-    "text": "Item",
+    "text": "Предмет",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
