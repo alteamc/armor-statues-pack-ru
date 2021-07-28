@@ -9,15 +9,15 @@
     }
   },
   {
-    "text": "    ",
+    "text": "  ",
     "color": "white"
   },
   {
-    "text": "Auto Alignment",
+    "text": "Автом. выравн.",
     "color": "dark_blue"
   },
   {
-    "text": "  ",
+    "text": "   ",
     "color": "white"
   },
   {
@@ -27,7 +27,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Pose and position an armor stand to align a held block or item with an adjacent block.",
+          "text": "Настроить позу и положение стойки так, чтобы удерживаемый предмет или блок находился на полу.",
           "color": "yellow"
         }
       ]
@@ -38,7 +38,7 @@
     "color": "white"
   },
   {
-    "text": "Block on surface",
+    "text": "Блок на поверхности",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -48,7 +48,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Align an armor stand placed on a surface so that a block held by it appears on the surface.",
+          "text": "Расположить стойку, стоящую на полу так, чтобы удерживаемый блок стоял на полу.",
           "color": "yellow"
         }
       ]
@@ -59,7 +59,7 @@
     "color": "white"
   },
   {
-    "text": "Item on surface",
+    "text": "Предмет на полу",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -69,7 +69,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Align an armor stand placed on a surface so that an item held by it appears upright on the surface.",
+          "text": "Расположить стойку, стоящую на полу так, чтобы удерживаемый предмет стоял на полу.",
           "color": "yellow"
         }
       ]
@@ -80,7 +80,7 @@
     "color": "white"
   },
   {
-    "text": "Item flat on surface",
+    "text": "Предмет пл. на полу",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -90,7 +90,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Align an armor stand placed on a surface so that a non-tool item held by it appears flat on the surface.",
+          "text": "Расположить стойку, стоящую на полу так, чтобы удерживаемый блок лежал на полу.",
           "color": "yellow"
         }
       ]
@@ -101,7 +101,7 @@
     "color": "white"
   },
   {
-    "text": "Tool flat on surface",
+    "text": "Инструм. пл. на полу",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -111,7 +111,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Align an armor stand placed on a surface so that a tool held by it appears flat on the surface.",
+          "text": "Расположить стойку, стоящую на полу так, чтобы удерживаемый инструмент лежал на полу.",
           "color": "yellow"
         }
       ]
@@ -122,7 +122,7 @@
     "color": "white"
   },
   {
-    "text": "Tool rack",
+    "text": "Крюк",
     "color": "dark_green",
     "clickEvent": {
       "action": "run_command",
@@ -139,15 +139,15 @@
     }
   },
   {
-    "text": "\n\n       ",
+    "text": "\n\n     ",
     "color": "white"
   },
   {
-    "text": "Swap Slots",
+    "text": "Помен. слоты",
     "color": "dark_blue"
   },
   {
-    "text": "     ",
+    "text": "   ",
     "color": "white"
   },
   {
@@ -157,7 +157,7 @@
       "action": "show_text",
       "contents": [
         {
-          "text": "Swap items between equipment slots",
+          "text": "Поменять удерживаемые предметы местами.",
           "color": "yellow"
         }
       ]
@@ -168,7 +168,7 @@
     "color": "white"
   },
   {
-    "text": "Mainhand ",
+    "text": "Гл. рука ",
     "color": "black"
   },
   {
@@ -180,7 +180,7 @@
     }
   },
   {
-    "text": " Offhand",
+    "text": " вт. рука",
     "color": "black"
   },
   {
@@ -188,7 +188,7 @@
     "color": "white"
   },
   {
-    "text": "Mainhand ",
+    "text": "Гл. рука ",
     "color": "black"
   },
   {
@@ -200,7 +200,7 @@
     }
   },
   {
-    "text": " Head",
+    "text": " голова",
     "color": "black"
   }
 ]
