@@ -5,7 +5,7 @@ stages:
     - "build"
 
 before_script:
-    - "apk add make jq"
+    - "apk add make jq zip"
 
 lint:
   stage: "lint"
