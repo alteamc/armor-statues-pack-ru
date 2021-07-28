@@ -1,7 +1,6 @@
 #!/bin/sh
 ./scripts/format.sh
 
-set -x
 mkdir -p build/datapacks
 find . -type f ! \(                                                                                                    \
   -path ./.git/\* -o                                                                                                   \
