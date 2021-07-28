@@ -141,11 +141,11 @@
     }
   },
   {
-    "text": "      ",
+    "text": "     ",
     "color": "white"
   },
   {
-    "text": "Отр./пер.",
+    "text": "Отр./разв.",
     "color": "dark_aqua",
     "clickEvent": {
       "action": "change_page",
