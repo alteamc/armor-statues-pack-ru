@@ -12,7 +12,7 @@ outdir = build
 	compile_book extract_book_nbt																																																																							\
 
 
-build: lint compile_book package
+build: lint package
 
 
 lint: lint_json
