@@ -1,0 +1,206 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Auto Alignment",
+    "color": "dark_blue"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Pose and position an armor stand to align a held block or item with an adjacent block.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Block on surface",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 151"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Align an armor stand placed on a surface so that a block held by it appears on the surface.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Item on surface",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 152"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Align an armor stand placed on a surface so that an item held by it appears upright on the surface.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Item flat on surface",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 153"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Align an armor stand placed on a surface so that a non-tool item held by it appears flat on the surface.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Tool flat on surface",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 154"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Align an armor stand placed on a surface so that a tool held by it appears flat on the surface.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Tool rack",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 155"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Align an armor stand with a tripwire hook on the wall above it so that a tool held by it appears to be hanging up.\n\nAlso locks the armor stand and disables all slots except the mainhand.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n       ",
+    "color": "white"
+  },
+  {
+    "text": "Swap Slots",
+    "color": "dark_blue"
+  },
+  {
+    "text": "     ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Swap items between equipment slots",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n.",
+    "color": "white"
+  },
+  {
+    "text": "Mainhand ",
+    "color": "black"
+  },
+  {
+    "text": "<->",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 161"
+    }
+  },
+  {
+    "text": " Offhand",
+    "color": "black"
+  },
+  {
+    "text": "\n  ",
+    "color": "white"
+  },
+  {
+    "text": "Mainhand ",
+    "color": "black"
+  },
+  {
+    "text": "<->",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 162"
+    }
+  },
+  {
+    "text": " Head",
+    "color": "black"
+  }
+]

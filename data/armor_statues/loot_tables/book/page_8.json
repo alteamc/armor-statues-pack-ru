@@ -1,0 +1,84 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Item Frames",
+    "color": "dark_blue"
+  },
+  {
+    "text": "     ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "To make an item frame invisible it must be one block in front of the players eyes and have an item in the frame.\nAlternatively you can also enter:\n/trigger if_invisible\nTo make the item frame visible remove its item.\n\nMust be in creative to make item frame Fixed, or have it enabled from the admin menu.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Invisible item frame",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger if_invisible set 1"
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Fixed Item Frame:",
+    "color": "black"
+  },
+  {
+    "text": "\n        ",
+    "color": "white"
+  },
+  {
+    "text": "Yes",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger if_invisible set 2"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "No",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger if_invisible set 3"
+    }
+  },
+  {
+    "text": "",
+    "color": "white"
+  }
+]

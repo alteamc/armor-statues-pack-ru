@@ -1,0 +1,209 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": ".",
+    "color": "white"
+  },
+  {
+    "text": "Pose Mirror & Flip",
+    "color": "dark_blue"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Mirroring copies the arm or leg pose from left to right or vice versa. Flipping reverses the armor stand's pose entirely.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n ",
+    "color": "white"
+  },
+  {
+    "text": "Mirror Arms",
+    "color": "black"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "L>R",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 131"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "R>L",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 132"
+    }
+  },
+  {
+    "text": "\n          ",
+    "color": "white"
+  },
+  {
+    "text": "Legs",
+    "color": "black"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "L>R",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 133"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "R>L",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 134"
+    }
+  },
+  {
+    "text": "\n\n                  .",
+    "color": "white"
+  },
+  {
+    "text": "<-Flip->",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 135"
+    }
+  },
+  {
+    "text": "\n\n         ",
+    "color": "white"
+  },
+  {
+    "text": "Utilities",
+    "color": "dark_blue"
+  },
+  {
+    "text": "        ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Copying an armor stand stores it's settings and pose in the book and these can then be pasted into another armor stand. The book must be the selected item in your mainhand or offhand for this to work.\n\nLocking an armor stand prevents it from being changed using the book and disables interaction with the equipment slots.\n\nSealing an armor stand, which is only available in creative mode, does the same and in addition makes it invulnerable",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n     .",
+    "color": "white"
+  },
+  {
+    "text": "Copy",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1004"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "Paste",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1005"
+    }
+  },
+  {
+    "text": "\n\n     ",
+    "color": "white"
+  },
+  {
+    "text": "Lock",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1000"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "Unlock",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1001"
+    }
+  },
+  {
+    "text": "\n\n     ",
+    "color": "white"
+  },
+  {
+    "text": "Seal",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function armor_statues:sealing/seal"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "Unseal",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function armor_statues:sealing/unseal"
+    }
+  }
+]

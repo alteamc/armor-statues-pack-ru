@@ -1,0 +1,271 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "   ",
+    "color": "white"
+  },
+  {
+    "text": "Pose Presets",
+    "color": "dark_blue"
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "The Death pose is for a figure lying down and requires a separate armor stand for the legs.\n\nRandomized creates a completely unique randomized custom pose.\n\nThe Block and Item presets are designed to hold blocks and items in line with the world grid.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\nAttention",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 20"
+    }
+  },
+  {
+    "text": "    .",
+    "color": "white"
+  },
+  {
+    "text": "Confident",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 30"
+    }
+  },
+  {
+    "text": "\nWalking",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 21"
+    }
+  },
+  {
+    "text": "      ..",
+    "color": "white"
+  },
+  {
+    "text": "Salute",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 31"
+    }
+  },
+  {
+    "text": "\nRunning",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 22"
+    }
+  },
+  {
+    "text": "     ..",
+    "color": "white"
+  },
+  {
+    "text": "Death",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 32"
+    }
+  },
+  {
+    "text": "\nPointing",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 23"
+    }
+  },
+  {
+    "text": "     ..",
+    "color": "white"
+  },
+  {
+    "text": "Facepalm",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 33"
+    }
+  },
+  {
+    "text": "\nBlocking",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 24"
+    }
+  },
+  {
+    "text": "     .",
+    "color": "white"
+  },
+  {
+    "text": "Lazing",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 34"
+    }
+  },
+  {
+    "text": "\nLungeing",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 25"
+    }
+  },
+  {
+    "text": "    .",
+    "color": "white"
+  },
+  {
+    "text": "Confused",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 35"
+    }
+  },
+  {
+    "text": "\nWinning",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 26"
+    }
+  },
+  {
+    "text": "      ..",
+    "color": "white"
+  },
+  {
+    "text": "Formal",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 36"
+    }
+  },
+  {
+    "text": "\nSitting",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 27"
+    }
+  },
+  {
+    "text": "       ..",
+    "color": "white"
+  },
+  {
+    "text": "Sad",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 37"
+    }
+  },
+  {
+    "text": "\nArabesque",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 28"
+    }
+  },
+  {
+    "text": " .",
+    "color": "white"
+  },
+  {
+    "text": "Joyous",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 38"
+    }
+  },
+  {
+    "text": "\nCupid",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 29"
+    },
+    "underlined": "true"
+  },
+  {
+    "text": "        ",
+    "color": "dark_green",
+    "underlined": "true"
+  },
+  {
+    "text": "Stargazing",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 39"
+    },
+    "underlined": "true"
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Randomized",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1150"
+    }
+  },
+  {
+    "text": "\nBlock",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 141"
+    }
+  },
+  {
+    "text": "        ..",
+    "color": "white"
+  },
+  {
+    "text": "Item",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 142"
+    }
+  }
+]
