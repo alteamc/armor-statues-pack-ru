@@ -8,5 +8,6 @@ find . -type f ! \(                                                             
   -path ./Makefile -o                                                                                                  \
   -path ./.gitignore -o                                                                                                \
   -path ./.gitlab-ci.yml -o                                                                                            \
+  -path ./VERSION -o                                                                                                   \
   -path ./data/armor_statues/loot_tables/book/\*                                                                       \
 \) | zip "build/datapacks/Armor Statues $(cat VERSION).zip" -@
