@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 printf "%s" "Compiling book.json... "
 
 booktmp="$(mktemp)"
