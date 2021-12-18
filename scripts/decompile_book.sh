@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "%s" "Декомпиляция book.json... "
+printf "%s" "Decompiling book.json... "
 
 mkdir -p data/armor_statues/loot_tables/book
 booktmp="$(mktemp)"
@@ -15,4 +15,4 @@ while IFS= read -r page; do
   mv "$pagetmp" "data/armor_statues/loot_tables/book/page_$np.json"
 done <<< "$(jq -r .pages[] "$booktmp")"
 
-echo "готово."
+echo "done."

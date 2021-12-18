@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "%s" "Компиляция book.json... "
+printf "%s" "Compiling book.json... "
 
 booktmp="$(mktemp)"
 jq -r .pools[0].entries[0].functions[0].tag data/armor_statues/loot_tables/book.json |
@@ -17,3 +17,4 @@ done
 tmp="$(mktemp)"
 jq --arg book "$(jq -c . "$booktmp")" ".pools[0].entries[0].functions[0].tag = \$book" data/armor_statues/loot_tables/book.json > "$tmp"
 mv "$tmp" data/armor_statues/loot_tables/book.json
+echo "done."
