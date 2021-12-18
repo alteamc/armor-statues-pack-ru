@@ -1,17 +1,17 @@
 #!/bin/bash
-echo "Проверка синтаксиса файлов JSON..."
+echo "Checking JSON syntax..."
 
 find data -type f -iname "*.json" -print0                                                                              \
 | while IFS= read -r -d "" file; do
-  printf "Проверяем %s... " "$(file="${file#./data/}"; printf "%s" "${file%.json}")"
+  printf "Checking %s... " "$(file="${file#./data/}"; printf "%s" "${file%.json}")"
   tmp="$(mktemp)"
   if ! err="$(jq . "$file" 2>&1 >/dev/null)"; then
-    echo "ошибка:"
+    echo "ERROR:"
     echo "$err"
     rm "$tmp"
 
     exit 1
   else
-    echo "готово."
+    echo "OK."
   fi
 done
