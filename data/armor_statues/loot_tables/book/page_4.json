@@ -1,0 +1,271 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Шаблоны поз",
+    "color": "dark_blue"
+  },
+  {
+    "text": "   ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "\"Смерть\" изображает лежащую на полу стойку, и требует отдельную стойку для ног.\n\n\"Случайная\" создаёт случайную позу стойки.\n\nШаблоны \"блок\" и \"предмет\" используются для удерживания блоков и предметов с равнением на сетку блоков.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\nВнимание",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 20"
+    }
+  },
+  {
+    "text": "      .",
+    "color": "white"
+  },
+  {
+    "text": "Уверен.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 30"
+    }
+  },
+  {
+    "text": "\nХодьба",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 21"
+    }
+  },
+  {
+    "text": "     ..",
+    "color": "white"
+  },
+  {
+    "text": "Приветст.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 31"
+    }
+  },
+  {
+    "text": "\nБег",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 22"
+    }
+  },
+  {
+    "text": "             ...",
+    "color": "white"
+  },
+  {
+    "text": "Смерть",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 32"
+    }
+  },
+  {
+    "text": "\nУказыв.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 23"
+    }
+  },
+  {
+    "text": "     ..",
+    "color": "white"
+  },
+  {
+    "text": "Фейспалм",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 33"
+    }
+  },
+  {
+    "text": "\nБлокир.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 24"
+    }
+  },
+  {
+    "text": "     ..",
+    "color": "white"
+  },
+  {
+    "text": "Расслабл.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 34"
+    }
+  },
+  {
+    "text": "\nВыпад",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 25"
+    }
+  },
+  {
+    "text": "      ..",
+    "color": "white"
+  },
+  {
+    "text": "Растерян.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 35"
+    }
+  },
+  {
+    "text": "\nПобеда",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 26"
+    }
+  },
+  {
+    "text": "        ...",
+    "color": "white"
+  },
+  {
+    "text": "Вежлив.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 36"
+    }
+  },
+  {
+    "text": "\nСидящ.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 27"
+    }
+  },
+  {
+    "text": "         ...",
+    "color": "white"
+  },
+  {
+    "text": "Грустн.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 37"
+    }
+  },
+  {
+    "text": "\nЛасточка",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 28"
+    }
+  },
+  {
+    "text": "        ..",
+    "color": "white"
+  },
+  {
+    "text": "Игрив.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 38"
+    }
+  },
+  {
+    "text": "\nКупидон",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 29"
+    },
+    "underlined": "true"
+  },
+  {
+    "text": "   ",
+    "color": "dark_green",
+    "underlined": "true"
+  },
+  {
+    "text": "Звездочёт",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 39"
+    },
+    "underlined": "true"
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Случайн.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1150"
+    }
+  },
+  {
+    "text": "\nБлок",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 141"
+    }
+  },
+  {
+    "text": "        ..",
+    "color": "white"
+  },
+  {
+    "text": "Предмет",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 142"
+    }
+  }
+]

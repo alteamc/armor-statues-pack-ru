@@ -1,0 +1,209 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": ".",
+    "color": "white"
+  },
+  {
+    "text": "Отр. позы и разв.",
+    "color": "dark_blue"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Отражение меняет местами левую и правую часть стойки. Разворот полностью инвертирует позу стойки.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n ",
+    "color": "white"
+  },
+  {
+    "text": "Отраз. руки",
+    "color": "black"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Л>П",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 131"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "П>Л",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 132"
+    }
+  },
+  {
+    "text": "\n          ",
+    "color": "white"
+  },
+  {
+    "text": "ноги",
+    "color": "black"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Л>П",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 133"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "П>Л",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 134"
+    }
+  },
+  {
+    "text": "\n\n      .",
+    "color": "white"
+  },
+  {
+    "text": "<-Разворот->",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 135"
+    }
+  },
+  {
+    "text": "\n\n     ",
+    "color": "white"
+  },
+  {
+    "text": "Инструменты",
+    "color": "dark_blue"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Копирование сохраняет настройки стойки и её позу и позволяет позже применить их на другую стойку. Книга должна быть в главной или второй руке.\n\nБлокирование стойки предотвращает её изменение через книгу и отключает возможность поменять предметы на ней.\n\nЗапечатывание аналогично блокировке, но работает только в режиме творчества и вдобавок предотвращает разрушение стойки.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Копиров.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1004"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "вставить",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1005"
+    }
+  },
+  {
+    "text": "\n\n ",
+    "color": "white"
+  },
+  {
+    "text": "Заблок.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1000"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "разблок.",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1001"
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Запечат.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function armor_statues:sealing/seal"
+    }
+  },
+  {
+    "text": " / ",
+    "color": "black"
+  },
+  {
+    "text": "распечат.",
+    "color": "red",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function armor_statues:sealing/unseal"
+    }
+  }
+]

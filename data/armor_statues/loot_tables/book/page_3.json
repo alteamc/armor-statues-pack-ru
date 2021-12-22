@@ -1,0 +1,349 @@
+[
+  "",
+  {
+    "text": "«",
+    "color": "light_purple",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 1
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Поворот стойки",
+    "color": "dark_blue"
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Шаг угла (по умолчанию 15°) используется при регулировке позы и поворота стойки.\n\n\"От игрока\" и \"К игроку\" поворачивают стойку лицом от вас или к вам, соотвественно.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n  ",
+    "color": "white"
+  },
+  {
+    "text": "<<",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 56"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "45°",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 120"
+    }
+  },
+  {
+    "text": " ",
+    "color": "black"
+  },
+  {
+    "text": "15°",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 121"
+    }
+  },
+  {
+    "text": " ",
+    "color": "black"
+  },
+  {
+    "text": "5°",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 122"
+    }
+  },
+  {
+    "text": " ",
+    "color": "black"
+  },
+  {
+    "text": "1°",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 123"
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": ">>",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 57"
+    }
+  },
+  {
+    "text": "\n\n  ",
+    "color": "white"
+  },
+  {
+    "text": "К игроку",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 124"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "От игрока",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 125"
+    }
+  },
+  {
+    "text": "\n\n      ",
+    "color": "white"
+  },
+  {
+    "text": "Указывание",
+    "color": "dark_blue"
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Указывает выбранной частью на голову или под ноги.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n\n",
+    "color": "white"
+  },
+  {
+    "text": "Голова:",
+    "color": "black"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1160"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1166"
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Тело:",
+    "color": "black"
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1161"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1167"
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "П. рука:",
+    "color": "black"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1162"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1168"
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Л. рука:",
+    "color": "black"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1163"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1169"
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "П. нога:",
+    "color": "black"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1164"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1170"
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Л. нога:",
+    "color": "black"
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "на гол.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1165"
+    }
+  },
+  {
+    "text": " ",
+    "color": "white"
+  },
+  {
+    "text": "под н.",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1171"
+    }
+  }
+]

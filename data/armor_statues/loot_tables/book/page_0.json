@@ -1,0 +1,239 @@
+[
+  {
+    "text": "      .",
+    "color": "white"
+  },
+  {
+    "text": "Statues V2.9",
+    "color": "dark_blue"
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Ⓘ",
+    "color": "dark_purple",
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": [
+        {
+          "text": "Эта книга позволяет вам изменять различные настройки стойки для брони. Нажатие на  цветные ссылки настраивает ближайшую стойку в пределах трёх блоков.",
+          "color": "yellow"
+        }
+      ]
+    }
+  },
+  {
+    "text": "\n         ",
+    "color": "white"
+  },
+  {
+    "text": "⤺",
+    "bold": "true",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1200"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": {
+        "text": "Отменить",
+        "color": "yellow"
+      }
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "⟲",
+    "bold": "true",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_repeat set 1"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": {
+        "text": "Повторить",
+        "color": "yellow"
+      }
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "⤻",
+    "bold": "true",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 1201"
+    },
+    "hoverEvent": {
+      "action": "show_text",
+      "contents": {
+        "text": "Вернуть",
+        "color": "yellow"
+      }
+    }
+  },
+  {
+    "text": "\n      Оглавление",
+    "color": "black"
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "\nСтиль",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 2
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Автом. выравн.",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 7
+    }
+  },
+  {
+    "text": "\nРаспол.",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 3
+    }
+  },
+  {
+    "text": "  ",
+    "color": "white"
+  },
+  {
+    "text": "Помен. слоты",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 7
+    }
+  },
+  {
+    "text": "\nПоворот",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 4
+    }
+  },
+  {
+    "text": "     ",
+    "color": "white"
+  },
+  {
+    "text": "Отр./разв.",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 8
+    }
+  },
+  {
+    "text": "\nУказыв.",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 4
+    }
+  },
+  {
+    "text": "        ",
+    "color": "white"
+  },
+  {
+    "text": "Инструм.",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 8
+    }
+  },
+  {
+    "text": "\nШаблоны",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 5
+    }
+  },
+  {
+    "text": "          ",
+    "color": "white"
+  },
+  {
+    "text": "Рамки",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 9
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "Регул. позы",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 6
+    }
+  },
+  {
+    "text": "    ",
+    "color": "white"
+  },
+  {
+    "text": "Авторы",
+    "color": "dark_aqua",
+    "clickEvent": {
+      "action": "change_page",
+      "value": 10
+    }
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "\n",
+    "color": "white"
+  },
+  {
+    "text": "\n    ",
+    "color": "white"
+  },
+  {
+    "text": "Указать на цель",
+    "color": "dark_green",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/trigger as_trigger set 999"
+    }
+  }
+]
