@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 mkdir -p build/datapacks
 find . -type f -not \(                                                                                                 \
   -path ./.git/\* -o                                                                                                   \
