@@ -1,4 +1,4 @@
-name: Сборка датапака при релизе
+name: Datapack packaging on release
 
 on:
   release:
@@ -10,17 +10,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Проверка на ошибки
+      - name: Checking for errors
         run: scripts/lint.sh
 
-      - name: Сборка
+      - name: Packaging
         run: scripts/package.sh
 
-      - name: Получение версии из метки релиза
+      - name: Retrieving release version
         id: get_version
         run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
 
-      - name: Прикрепление датапака к релизу
+      - name: Attaching datapack to a release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:

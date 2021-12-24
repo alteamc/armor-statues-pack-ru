@@ -1,4 +1,4 @@
-name: Проверка датапака на ошибки при PR
+name: Datapack error check on PR
 
 on:
   pull_request:
@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Установка дополнительных пакетов
+      - name: Installing additional packages
         run: sudo apt-get install -y python3-pip && sudo pip install hjson
 
-      - name: Проверка на ошибки
+      - name: Checking for errors
         run: scripts/lint.sh
